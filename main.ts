@@ -12,6 +12,9 @@ input.onButtonPressed(Button.AB, function () {
         basic.showString("3")
     }
 })
+input.onButtonPressed(Button.B, function () {
+    basic.showString("bye")
+})
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Happy)
 })
